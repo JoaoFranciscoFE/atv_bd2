@@ -129,9 +129,9 @@ LPUSH fila:email "Enviar email de confirmação"
 LPUSH fila:pagamentos "Processar pagamento #321"
 ```
 ## 📘 Padrão recomendado:
-
+```
 <domínio>:<entidade>
-
+```
 ➡️ Exemplos:
 
 - `fila:tarefas`
@@ -140,19 +140,19 @@ LPUSH fila:pagamentos "Processar pagamento #321"
 
 ## Benefícios das Lists
 
-✅ Operações de inserção e remoção com complexidade O(1)
-✅ Ideal para filas e pilhas em tempo real
-✅ Estrutura simples e altamente eficiente
-✅ Suporte a múltiplos produtores e consumidores
+- ✅ Operações de inserção e remoção com complexidade O(1)
+- ✅ Ideal para filas e pilhas em tempo real
+- ✅ Estrutura simples e altamente eficiente
+- ✅ Suporte a múltiplos produtores e consumidores
 
 ## Conclusão
 
-As Lists são uma ferramenta poderosa no Redis para lidar com sequências ordenadas de dados.
-Com comandos simples e operações eficientes, é possível implementar desde filas de tarefas até históricos de atividades de usuários com altíssimo desempenho.
+- As Lists são uma ferramenta poderosa no Redis para lidar com sequências ordenadas de dados.
+- Com comandos simples e operações eficientes, é possível implementar desde filas de tarefas até históricos de atividades de usuários com altíssimo desempenho.
 
 ---
 
 📖 Referências
 
-📘 Documento: "Redis — Entendendo o Tipo de Dado List"
-🌐 Documentação oficial do Redis: https://redis.io/docs/latest/develop/data-types/lists/
+- 📘 Documento: "Redis — Entendendo o Tipo de Dado List"
+- 🌐 Documentação oficial do Redis: https://redis.io/docs/latest/develop/data-types/lists/
